@@ -4,8 +4,6 @@
   Challenge 02: Node.js Concepts
 </h3>
 
-<blockquote align="center">“Don't wait to plant, only have patience to harvest”!</blockquote>
-
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafios?color=%2304D361">
 
@@ -24,26 +22,6 @@
   <a href="#rocket-about-the-challenge">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-deliver">Deliver</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licence">Licence</a>
-</p>
-
-## :rocket: About the challenge
-
-In this challenge, you must create a application to practice what you have learned in Node.js!
-
-Thils will be an application to storage repositories of your portfolio, that will allow you to list, update, and delete repositories, and besides that, the repositories can also receive likes.
-
-### Application Template
-
-We created a GitHub Template to help you with the challenge.
-
-The template is available in the following URL: **[Access Template](https://github.com/Rocketseat/gostack-template-conceitos-nodejs)**
-
-**Tip**: In case you don't know how to use Github repositories as templates, we have a guide in **[our FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
-
-Navigate to the created folder and open it in the Visual Studio Code, remember to execute the command `yarn` in your terminal in order to install all the dependencies, and you'll have something similar to that:
-
-<p align="center">
-  <img  src="./assets/nodejs-example.png">
 </p>
 
 ### Application Routes
@@ -76,7 +54,7 @@ Good studies <3
 
 In each test, you have a brief description of what your application must do in order for the test suits pass.
 
-If you have questions about what the tests are, and how to interpret them, take a look at **[our FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq- challenges).**
+If you have questions about what the tests are, and how to interpret them, take a look at **[our FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-challenges).**
 
 For this challenge we have the following tests:
 
@@ -97,12 +75,6 @@ For this challenge we have the following tests:
 - **`should be able to give a like to the repository`**: In order for this test to pass, your application must allow a repository with the given id to receive likes. The value of likes must be increased by 1 for each request, and as the result, return a JSON containing the repository with the number of likes updated.
 
 - **`should not be able to like a repository that does not exist`**: In order for this test to pass, you must validate in your like route whether the repository id sent by the URL exists or not. If not, return an error with status `400`.
-
-## :calendar: Deliver
-
-This challenge must be delivered.
-
-After completing the challenge, posting on Linkedin about it is a good way to demonstrate your efforts to evolve your career for future oportunities.
 
 ## :memo: Licence
 
