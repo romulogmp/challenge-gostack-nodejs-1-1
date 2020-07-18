@@ -26,26 +26,6 @@
   <a href="#memo-licence">Licence</a>
 </p>
 
-## :rocket: About the challenge
-
-In this challenge, you must create a application to practice what you have learned in Node.js!
-
-Thils will be an application to storage repositories of your portfolio, that will allow you to list, update, and delete repositories, and besides that, the repositories can also receive likes.
-
-### Application Template
-
-We created a GitHub Template to help you with the challenge.
-
-The template is available in the following URL: **[Access Template](https://github.com/Rocketseat/gostack-template-conceitos-nodejs)**
-
-**Tip**: In case you don't know how to use Github repositories as templates, we have a guide in **[our FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
-
-Navigate to the created folder and open it in the Visual Studio Code, remember to execute the command `yarn` in your terminal in order to install all the dependencies, and you'll have something similar to that:
-
-<p align="center">
-  <img  src="./assets/nodejs-example.png">
-</p>
-
 ### Application Routes
 
 Now that you already have the template cloned, and ready to continue, you must open the file app.js, and complete the places where there's no have code, with the code to achieve the goals of each route.
