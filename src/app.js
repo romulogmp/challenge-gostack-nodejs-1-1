@@ -31,11 +31,13 @@ app.get("/repositories", (request, response) => {
 
 app.post("/repositories", (request, response) => {
   const { title, url, techs } = request.body;
+  let arrayTechs;
+  if(techs) arrayTechs = Array.isArray(techs) ? techs : new Array(techs);
   const repository = { 
     id: uuid(),
     title,
     url,
-    techs,
+    techs: arrayTechs,
     likes: 0
   }
   repositories.push(repository);
@@ -47,7 +49,7 @@ app.put("/repositories/:id", (request, response) => {
   const repository = repositories[request.repositoryIndex]
   repository.title = title ? title : repository.title;
   repository.url = url ? url : repository.url;
-  repository.techs = techs ? techs : repository.techs;
+  if(techs) repository.techs = Array.isArray(techs) ? techs : new Array(techs);
   return response.json(repository);
 });
 
