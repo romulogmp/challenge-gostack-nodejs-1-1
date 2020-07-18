@@ -54,7 +54,7 @@ Good studies <3
 
 In each test, you have a brief description of what your application must do in order for the test suits pass.
 
-If you have questions about what the tests are, and how to interpret them, take a look at **[our FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq- challenges).**
+If you have questions about what the tests are, and how to interpret them, take a look at **[our FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-challenges).**
 
 For this challenge we have the following tests:
 
